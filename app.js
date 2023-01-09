@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 //connect to the mongodb database...
-mongoose.connect("mongodb://localhost/blog_it", {
+mongoose.connect("mongodb://127.0.0.1:27017/blog_it", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, () => {
