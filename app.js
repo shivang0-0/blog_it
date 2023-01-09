@@ -19,6 +19,7 @@ app.set("view engine","ejs");
 //routes
 app.use(require("./routes/index"));
 app.use(require("./routes/compose"));
+app.use(require("./routes/blog"));
 
 //server configuration
 app.listen(3000, () => console.log("Listening at port 3000"));
